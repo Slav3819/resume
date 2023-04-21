@@ -1,0 +1,344 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+
+:root {
+  --gold-color: #CC9933;
+  --gold-color-one: #A47312;
+  --gold-color-two: #F0BF5F;
+  --white-color: #FFFFFF;
+  --black-color:  #000000;
+  --gray-color: #999999;
+  --gray-color-one: #333333;
+  --gray-color-two: #666666;
+}
+
+
+body {
+  min-width: 1200px;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*glob*/
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  pading: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container-one {
+  width: 400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container-two {
+  width: 800px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.section-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.section-offset {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* header*/
+.header {
+}
+
+.header-logo {
+  margin-right: 40px;
+  margin-bottom: 30px; 
+}
+
+.header-tel {
+   margin-right: auto;
+}
+
+/*navig*/
+.nav-list-item {
+ margin-left: 45px;
+}
+
+
+/*spec*/
+
+.spec-heading {
+  margin-left: 45px;
+  margin-bottom: 20px;
+  
+}
+
+.spec-list {
+  flex-wrap: wrap;
+  }
+
+
+.section-spec-heading {
+  margin-left: 15px;
+  margin-bottom: 15px
+}
+
+.section-spec-span {
+  margin-left: 15px;
+  margin-bottom: 15px
+}
+
+.section-spec-link {
+  margin-left: 15px;
+  
+}
+
+.section-spec-svg {
+  margin-left: 15px;
+  margin-bottom: 15px
+}
+.section-spec-foto {
+  margin-bottom: 45px
+}
+
+.section-spec-foto:hover {
+	
+  fill: var(--gray-color-one);
+}
+
+
+/*info*/
+
+.section-info-prg {
+  
+  width: 75%;
+}
+
+
+
+.info-heating {
+  margin: 0;	
+  margin-left: 45px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--gray-color-one);
+}
+
+
+.info-point {
+  flex-direction: column;
+  width: 540px;
+
+  }
+  
+  .info-point:hover {
+  color: var(--gray-color-two);
+
+  }
+  
+ .section-spec-icon:hover {
+  fill:  #0000CD;
+  }
+
+.section-info-prg-bio{
+	
+  margin-left: 25px;
+  
+}
+
+.section-info-list {
+
+  flex-wrap: wrap;
+  margin-left: 25px;
+  
+}
+
+.section-info-point {
+  margin-bottom: 25px;
+  width: 800px;
+  height: 125px;
+  background: var(--white-color);
+  border-radius: 5px;
+ 
+}
+.section-info-point-res {
+  margin-bottom: 25px;
+  width: 800px;
+  height: 185px;
+  background: var(--white-color);
+  border-radius: 5px;
+ 
+}
+
+
+.section-info-point:not(:nth-child(3n)) {
+  margin-right: 25px;
+}
+.section-info-point:nth-child(n+8) {
+  margin-bottom: 0;
+}
+
+.section-info-point:hover {
+
+  color: var(--black-color);
+
+
+}
+.section-info-point:active {
+
+  color: var(--black-color-one);
+
+}
+
+.section-info-spec-link:active {
+
+  color: var(--white-color);
+
+}
+
+.section-info-img-git {
+	margin-left: 100px;
+	
+}
+
+.section-info-ref {
+	margin-left: 20px;
+}
+
+/*advantages*/
+
+.advantages-heating {
+  margin: 0;	
+  margin-left: 45px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--gray-color-one);
+}
+
+.section-advantages-list {
+
+  flex-wrap: wrap;
+  margin-left: 25px;
+  
+}
+
+.section-advantages-point {
+  margin-bottom: 25px;
+  width: 250px;
+  height: 250px;
+  background: var(--white-color);
+  border-radius: 5px;
+ 
+}
+
+.section-advantages-point:not(:nth-child(4n)) {
+  margin-right: 25px;
+}
+.section-advantages-point:nth-child(n+4) {
+  margin-bottom: 0;
+}
+
+.section-advantages-point:hover {
+
+  color: var(--black-color);
+
+
+}
+.section-advantages-point:active {
+
+  color: var(--black-color-one);
+
+}
+
+.section-advantages-spec-link:active {
+
+  color: var(--white-color);
+
+}
+
+.section-advantages-img-git {
+	margin-left: 100px;
+	
+}
+
+
+
+
+/*contacts*/
+
+.contacts-haeting {
+  margin-left: 45px;
+  margin-bottom: 20px;
+}
+
+.section-contacts-list {
+  flex-direction: column;
+  justify-content: space-around; 
+}
+
+.section-contacts-point {
+  width: 600px;
+  height: 70px;
+  margin-bottom: 25px;
+}
+
+.section-contacts-link {
+  width: 600px;
+  height: 100px;
+  margin-bottom: 25px;
+}
+
+
+
+/*footer*/
+
+.footer-one {
+  flex-direction: column;
+}
+
+.footer-two {
+  flex-direction: column;
+}
+
+
